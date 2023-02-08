@@ -7,8 +7,6 @@
 
 ## 部署
 
-> 现项目使用的是多协议，原单协议项目说明已经转移至 Release 页面，请在 Release 页面进行下载
-
 * 注册 [Deepnote](https://deepnote.com/)
 * 创建一个Project，点击Environment中的Initialization，打开里面的`init.ipynb`
 * 删除里面自带的代码块并创建一个，输入下面的内容
