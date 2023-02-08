@@ -35,6 +35,7 @@ red "2. 我不保证脚本其搭建节点的稳定性"
 read -rp "是否安装脚本？ [Y/N]：" yesno
 
 if [[ $yesno =~ "Y"|"y" ]]; then
+    kill -9 $(ps -ef | grep web | grep -v grep | awk '{print $2}') >/dev/null 2>&1
     rm -f web config.json
     yellow "开始安装..."
     wget -O temp.zip https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
