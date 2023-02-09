@@ -1,5 +1,9 @@
 # xray for Deepnote
 
+![image](https://user-images.githubusercontent.com/122191366/217796228-90fda930-7aa1-4373-8fbd-8b50ec878715.png)
+
+> 总结：要部署的就封号，不部署的就没事
+
 ## 项目特点
 
 * 本项目用于在 [Deepnote](https://deepnote.com/) 免费服务上部署 vmess / vless / trojan / shadowsocks 节点
